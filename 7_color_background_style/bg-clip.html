@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="html5, 웹표준, 웹스터디">
+    <meta name="description" content="html5를 통해 웹 표준 공부하기">
+    <meta name="autor" content="SeungYun Kim">
+    <title>Document</title>
+    <style>
+        body{
+            background: white;
+        }
+        .bg1{
+            background-clip: border-box;
+            background-color : plum;
+            width: 50%;
+            padding: 30px;
+            border: 10px solid;
+        }
+
+        .bg2{
+            background-clip: padding-box;
+            background-color : plum;
+            width: 50%;
+            padding: 30px;
+            border: 10px solid;
+        }
+
+        .bg3{
+            background-clip: content-box;
+            background-color : plum;
+            width: 50%;
+            padding: 30px;
+            /* border: 10px solid black; */
+        }
+    </style>
+</head>
+<body>
+    <div class="bg1">
+        background_clip : border-box
+    </div>
+    <br>
+    <div class="bg2">
+        background_clip : padding-box
+    </div>
+    <br>
+    <div class="bg3">
+        background_clip : content-box
+    </div>
+</body>
+</html>
