@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="html5, 웹표준, 웹스터디">
+    <meta name="description" content="html5를 통해 웹 표준 공부하기">
+    <meta name="autor" content="SeungYun Kim">
+    <title>Document</title>
+    <style>
+        section{
+            padding: 20px;
+            width: 600px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .multi{
+            column-count: 3;
+            column-rule: 2px dotted #000;
+            text-align: justify;
+        }
+        .multi h3{
+            break-before: column;
+        }
+        .no-col{
+            column-span: all;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>건강에 좋은 식품 - Super Food</h2>
+        <h3>코코넛 오일</h3>
+        <p>남미 파나마에서는 ...... 정도이다.</p>
+        <div class="multi">
+            <h3>아보카도</h3>
+            <p>나무에서 열리는 ...... 수치를 낮추어준다.</p>
+            <h3>케일</h3>
+            <p>케일은 ...... 150g 정도이다.</p>
+            <h3>아보카도</h3>
+            <p>나무에서 열리는 ...... 수치를 낮추어준다.</p>
+            <h3>케일</h3>
+            <p>케일은 ...... 150g 정도이다.</p>
+            <div class="no-col">
+                <h3>아몬드</h3>
+                <p>혈관질환에 좋은 ...... 한다.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
